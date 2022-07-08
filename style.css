@@ -57,7 +57,7 @@ body, input, textarea, button {
   overflow: hidden;
 }
 
-.card img {
+.card > img {
   width: 100%;
   height: 450px;
   object-fit: cover;
@@ -108,7 +108,10 @@ body, input, textarea, button {
   text-decoration: line-through;
 }
 
-.card .informations button {
+.card .informations > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   width: 100%;
   height: 46px;
@@ -116,10 +119,13 @@ body, input, textarea, button {
   background-color: var(--dark-cyan);
   border: none;
   border-radius: 8px;
-  transition: background-color 0.3s;
 }
 
-.card .informations button:hover {
+.card .informations > button img {
+  margin-right: 0.5rem;
+}
+
+.card .informations > button:hover {
   background-color: var(--hover-button);
 }
 
@@ -144,7 +150,7 @@ body, input, textarea, button {
     margin-top: 2rem;
   }
 
-  .card img {
+  .card > img {
     width: 100%;
     height: 250px;
     object-fit: cover;
