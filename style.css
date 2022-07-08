@@ -131,3 +131,39 @@ body, input, textarea, button {
 .attribution a { 
   color: hsl(228, 45%, 44%); 
 }
+
+@media (max-width: 480px) {
+  body {
+    align-itemns: space-between;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+    max-width: 342px;
+    height: 600px;
+    margin-top: 2rem;
+  }
+
+  .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .card .informations h1 {
+    font-size: 2rem;
+  }
+
+  .card .informations {
+    padding: 0 1rem 1rem;
+  }
+
+  .card .informations .descriptions {
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .card .informations .prices {
+    margin-bottom: 1rem;
+  }
+}
