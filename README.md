@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/45228799/178070775-066ca9c1-50a1-4381-bb3a-412bbfeb1fc1.png)
+
 # Frontend Mentor - Product preview card component solution
 
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -27,10 +29,12 @@ Users should be able to:
 ### Links
 
 [Solution URL](https://www.frontendmentor.io/solutions/responsive-product-preview-card-using-grid-and-flexbox-4LAbfVhkxJ)
+
 [Live Site URL](https://diegosano.github.io/frontendmentor-product-preview-card/)
 
 ## Author
 
 [Frontend Mentor](https://www.frontendmentor.io/profile/diegosano)
+
 [Linkedin](https://www.linkedin.com/in/diego-sano/)
 
